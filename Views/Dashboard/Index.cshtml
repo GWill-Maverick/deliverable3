@@ -22,7 +22,7 @@
 
         <!-- Nav Item - Dashboard -->
         <li class="nav-item active">
-            <a class="nav-link" href="index.html">
+            <a class="nav-link" href="@Url.Action("Home","Dashboard")">
                 <i class="fas fa-fw fa-tachometer-alt"></i>
                 <span>Home</span>
             </a>
@@ -38,11 +38,12 @@
 
         <!-- Nav Item - Pages Collapse Menu -->
         <li class="nav-item">
-            <a class="nav-link" href="@Url.RouteUrl("diseases")">
+            <a class="nav-link" href="@Url.Action("diseases","Dashboard")">
                 <i class="fas fa-fw fa-chart-area"></i>
                 <span>Disease Repository</span>
             </a>
         </li>
+
 
         <!-- Nav Item - Utilities Collapse Menu -->
         <li class="nav-item">
@@ -53,7 +54,7 @@
         </li>
 
         <!-- Divider -->
-        <hr class="sidebar-divider">
+        <hr class="sidebar-divider"/>
 
         <!-- Heading -->
         <div class="sidebar-heading">
@@ -62,26 +63,13 @@
 
         <!-- Nav Item - Pages Collapse Menu -->
         <!-- Nav Item - Charts -->
-        <li class="nav-item">
-            <a class="nav-link" href="@Url.RouteUrl("dashhome")">
-                <i class="fas fa-fw fa-chart-line"></i>
-                <span>BMI</span>
-            </a>
-        </li>
+ 
 
         <!-- Nav Item - Charts -->
         <li class="nav-item">
-            <a class="nav-link" href="@Url.RouteUrl("dashhome")">
+            <a class="nav-link" href="@Url.Action("Allergy","Dashboard")">
                 <i class="fas fa-fw fa-chart-area"></i>
                 <span>Allergies</span>
-            </a>
-        </li>
-
-        <!-- Nav Item - Tables -->
-        <li class="nav-item">
-            <a class="nav-link" href="@Url.RouteUrl("dashhome")">
-                <i class="fas fa-fw fa-table"></i>
-                <span>Infections</span>
             </a>
         </li>
 
@@ -227,7 +215,7 @@
                         </a>
                         <!-- Dropdown - User Information -->
                         <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-                            <a class="dropdown-item" href="#">
+                            <a class="dropdown-item" href="#" onclick="location.href='@Url.Action("Profile","Dashboard")'"> >
                                 <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                                 Profile
                             </a>
@@ -260,7 +248,7 @@
             <!-- /.container-fluid -->
 
         </div>
-        <!-- End of Main Content -->
+        <!-- End of Main  -->
         <!-- Footer -->
         <footer class="sticky-footer bg-white">
             <div class="container my-auto">
@@ -293,7 +281,7 @@
             </div>
             <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
             <div class="modal-footer">
-                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                <button class="btn btn-secondary" type="button" data-dismiss="modal" onclick="location.href='@Url.Action("Home","Dashboard")'"> >Cancel</button>
                 <a class="btn btn-primary" href="@Url.RouteUrl("login")">Logout</a>
             </div>
         </div>

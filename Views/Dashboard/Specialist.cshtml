@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Specialist";
+    Layout = "~/Views/Dashboard/Index.cshtml";
+}
+
+<h2 align="center"> Dr Viktor Vaughn Doom </h2>
+
+<div class="container">
+
+    <label> Health Problem Type: </label>
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+            Select Health Problem
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">Food Allergy</a></li>
+            <li><a href="#">Dust Allergy</a></li>
+            <li><a href="#">Skin Allergy</a></li>
+        </ul>
+    </div> <br />
+
+    <label> Health Problem: </label> <br />
+    <textarea rows="5" cols="60" name="txtHealthProblem">
+        Enter problem here
+    </textarea> <br /> <br />
+
+    <button class="btn" type="button"> SUBMIT </button>
+
+</div>
+

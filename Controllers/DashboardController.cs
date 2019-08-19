@@ -19,7 +19,23 @@ namespace ProjectDeliverable2.Controllers
             return View();
         }
 
+        public ActionResult Profile()
+        {
+            return View();
+        }
+
         public ActionResult Diseases()
+        {
+            return View();
+        }
+
+        public ActionResult InfectiousDiseases()
+        {
+            return View();
+        }
+
+
+        public ActionResult HepatitisA()
         {
             return View();
         }
@@ -28,5 +44,42 @@ namespace ProjectDeliverable2.Controllers
         {
             return View();
         }
+
+        public ActionResult Allergy()
+        {
+            return View();
+        }
+
+
+        public ActionResult FoodAllergy()
+        {
+            return View();
+        }
+
+        public ActionResult Specialist()
+        {
+            return View();
+        }
+
+        public ActionResult DietRecommendation()
+        {
+            return View();
+        }
+
+        public ActionResult ReportOne()
+        {
+            return View();
+        }
+
+        public ActionResult ReportTwo()
+        {
+            return View();
+        }
+
+
+
+
+
+
     }
 }

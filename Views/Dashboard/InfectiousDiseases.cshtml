@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewBag.Title = "InfectiousDiseases";
+    Layout = "~/Views/Dashboard/Index.cshtml";
+}
+
+<div align="center">
+    <h1>Infectious Diseases</h1>
+</div>
+
+<br />
+
+<div>
+    <div class="row justify-content-around">
+
+        <button class="col-4" style="color:white; background-color:dodgerblue; height:200px; width:40%" onclick="location.href='@Url.Action("HepatitisA","Dashboard")'">>
+            <h3> Hepatitis A </h3>
+
+        </button>
+
+        <button class="col-4" style="color:white; background-color:dodgerblue; height:200px; width:50px">
+            <h3> Ebola </h3>
+        </button>
+
+    </div>
+    <br />
+    <div class="row justify-content-around">
+
+        <button class="col-4" style="color:white; background-color:dodgerblue;height:200px; width:40%">
+            <h3> Listeria </h3>
+
+        </button>
+
+        <button class="col-4" style="color:white; background-color:dodgerblue; height:200px; width:50px">
+            <h3>Cellulitis</h3>
+        </button>
+
+    </div>
+    <br />
+    <div class="row justify-content-around">
+
+        <button class="col-4" style="color:white; background-color:dodgerblue;height:200px; width:40%">
+            <h3> Pneumonia</h3>
+
+        </button>
+
+        <button class="col-4" style="color:white; background-color:dodgerblue; height:200px; width:50px">
+            <h3>Strep throat</h3>
+        </button>
+
+    </div>
+    <br />
+</div>

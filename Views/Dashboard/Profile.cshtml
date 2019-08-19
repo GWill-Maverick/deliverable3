@@ -1,0 +1,125 @@
+﻿
+@{
+    ViewBag.Title = "Profile";
+    Layout = "~/Views/Dashboard/Index.cshtml";
+}
+
+
+<div class="container">
+    <h1>Profile of Shaun Mabena</h1>
+    <hr>
+    <div class="row">
+        <!-- left column -->
+        <div class="col-md-3">
+            <div class="text-center">
+                <img src="//placehold.it/100" class="avatar img-circle" alt="avatar">
+                <h6>Upload a different photo...</h6>
+
+                <input type="file" class="form-control">
+            </div>
+        </div>
+
+        <!-- edit form column -->
+        <div class="col-md-9 personal-info">
+            <div class="alert alert-info alert-dismissable">
+                <a class="panel-close close" data-dismiss="alert">×</a>
+                <i class="fa fa-coffee"></i>
+                Edit your information            
+             </div>
+            <h3>Personal info</h3>
+
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label class="col-lg-3 control-label">First name:</label>
+                    <div class="col-lg-8">
+                        <input class="form-control" type="text" value="Shaun">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-lg-3 control-label">Surname</label>
+                    <div class="col-lg-8">
+                        <input class="form-control" type="text" value="Mabena">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-lg-3 control-label">Email:</label>
+                    <div class="col-lg-8">
+                        <input class="form-control" type="text" value=" ">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-lg-3 control-label">Height    :</label>
+                    <div class="col-lg-8">
+                        <input class="form-control" type="text" value=" ">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-lg-3 control-label">Weight:</label>
+                    <div class="col-lg-8">
+                        <input class="form-control" type="text" value=" ">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-lg-3 control-label">Allergies:</label>
+                    <div class="col-lg-8">
+                        <input class="form-control" type="text" value=" ">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-lg-3 control-label">Province:</label>
+                    <div class="col-lg-8">
+                        <div class="ui-select">
+                            <select id="user_time_zone" class="form-control">
+                                <option value="E">Eastern Cape</option>
+                                <option value="FS">Free State </option>
+                                <option value="G">Gauteng</option>
+                                <option value="KwaZulu-Natal">KwaZulu-Natal</option>
+                                <option value="LMP">Limpopo</option>
+                                <option value="MP" selected="selected">Mpumalanga</option>
+                                <option value="NC">Northern Cape</option>
+                                <option value="NW">North West</option>
+                                <option value="WC">Western Cape</option>
+
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-lg-3 control-label">City</label>
+                    <div class="col-lg-8">
+                        <div class="ui-select">
+                            <select id="user_time_zone" class="form-control">
+                                <option value="E">Benoni</option>
+                                <option value="FS">Boksburg</option>
+                                <option value="G">Brakpan</option>
+                                <option value="KwaZulu-Natal">Carletonville</option>
+                                <option value="LMP">Germiston</option>
+                                <option value="MP" selected="selected">Johannesburg</option>
+                                <option value="NC">Pretoria</option>
+                                <option value="NW">Randburg</option>
+                                <option value="WC">Randfontein</option>
+                                <option value="WC">Roodepoort</option>
+                                <option value="WC">Soweto</option>
+                                <option value="WC">Vanderbijlpark</option>
+                                <option value="WC">Vereeniging</option>
+
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-3 control-label"></label>
+                    <div class="col-md-8">
+                        <input type="button" class="btn btn-primary" value="Save Changes">
+                        <span></span>
+                        <input type="button" class="btn btn-default" onclick="location.href='@Url.Action("Home","Dashboard")'"  value="Cancel">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<hr>
+

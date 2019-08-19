@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "Allergy";
+    Layout = "~/Views/Dashboard/Index.cshtml";
+}
+
+<div align="center">
+    <h1>Allergies</h1>
+</div>
+
+<br />
+
+<div>
+    <div class="row justify-content-around">
+
+        <button class="col-4" style="color:white; background-color:dodgerblue; height:200px; width:40%" onclick="location.href='@Url.Action("FoodAllergy","Dashboard")'">
+            <h3> Food Allergies</h3>
+
+        </button>
+
+        <button class="col-4" style="color:white; background-color:dodgerblue; height:200px; width:50px">
+            <h3>Dust allergies</h3>
+        </button>
+
+    </div>
+    <br />
+    <div class="row justify-content-around">
+
+        <button class="col-4" style="color:white; background-color:dodgerblue;height:200px; width:40%">
+            <h3> Skin Allergy</h3>
+
+        </button>
+
+        <button class="col-4" style="color:white; background-color:dodgerblue; height:200px; width:50px">
+            <h3>Animal allergies</h3>
+        </button>
+
+    </div>
+    <br />
+    <div class="row justify-content-around">
+
+        <button class="col-4" style="color:white; background-color:dodgerblue;height:200px; width:40%">
+            <h3> Abnormal Allegies</h3>
+
+        </button>
+
+        <button class="col-4" style="color:white; background-color:dodgerblue; height:200px; width:50px">
+            <h3>Allergies</h3>
+        </button>
+
+    </div>
+    <br />
+</div>
+

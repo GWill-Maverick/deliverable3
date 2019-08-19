@@ -139,6 +139,8 @@
     <Content Include="Content\bootstrap.bundle.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Capture.GIF" />
+    <Content Include="Content\Capture2.GIF" />
     <Content Include="Content\demo-image-01.jpg" />
     <Content Include="Content\demo-image-02.jpg" />
     <Content Include="Content\grayscale.css" />
@@ -146,6 +148,7 @@
     <Content Include="Content\home.png" />
     <Content Include="Content\ibee.png" />
     <Content Include="Content\ipad.png" />
+    <Content Include="Content\New Text Document.txt" />
     <Content Include="Content\sb-admin-2.min.css" />
     <Content Include="Content\sb-admin-2.min.js" />
     <Content Include="favicon.ico" />
@@ -154,6 +157,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\Report1.pdf" />
+    <Content Include="Content\Report2.pdf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\grayscale.js" />
     <Content Include="Scripts\grayscale.min.js" />
@@ -190,6 +195,15 @@
     <Content Include="Views\Dashboard\Diseases.cshtml" />
     <Content Include="Views\Dashboard\Home.cshtml" />
     <Content Include="Views\Dashboard\HealthCentres.cshtml" />
+    <Content Include="Views\Dashboard\FoodAllergy.cshtml" />
+    <Content Include="Views\Dashboard\Specialist.cshtml" />
+    <Content Include="Views\Dashboard\DietRecommendation.cshtml" />
+    <Content Include="Views\Dashboard\Allergy.cshtml" />
+    <Content Include="Views\Dashboard\HepatitisA.cshtml" />
+    <Content Include="Views\Dashboard\Profile.cshtml" />
+    <Content Include="Views\Dashboard\InfectiousDiseases.cshtml" />
+    <Content Include="Views\Dashboard\ReportOne.cshtml" />
+    <Content Include="Views\Dashboard\ReportTwo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

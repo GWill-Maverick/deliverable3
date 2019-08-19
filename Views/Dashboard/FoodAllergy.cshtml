@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "FoodAllergy";
+    Layout = "~/Views/Dashboard/Index.cshtml";
+}
+
+<h2 align="center">Food Allergy</h2>
+
+<div class="container">
+    <div>
+        <div>
+            <p>Food allergies are estimated to affect 4% – 6% of children and 4% of adults, according to the Centers for Disease Control and Prevention. Food allergy symptoms are most common in babies and children, but they can appear at any age. You can even develop an allergy to foods you have eaten for years with no problems. SEE MORE</p>
+        </div> <br />
+
+        <div class="container">
+            <div class="row justify-content-around">
+
+                <div class="col-4" style="color:white;background-color:dodgerblue;height:300px; width:40%" align="cen">
+                    <h3> Symptoms</h3>
+                    <ul>
+                        <li>Fatigue</li>
+                        <li>Fatigue</li>
+                        <li>Fatigue</li>
+                    </ul>
+                </div>
+
+                <div class="col-4" style="color:white;background-color:dodgerblue; height:300px; width:40%">
+                    <h3>Recommended Remedies</h3>
+                </div>
+            </div>
+            <br />
+
+            <br />
+            <br />
+
+            <div class="row justify-content-around">
+                <div class="col-md-4" style="color:white; background-color:dodgerblue;height:300px; width:40%">
+                    This is a rectangle!
+                </div>
+
+
+                <div class="col-md-4">
+                    <button type="button" class="btn btn-info active" role="button" aria-pressed="true" onclick="location.href='@Url.Action("Specialist","Dashboard")'" >Contact Specialist</button>
+
+                    <br />
+                    <br />
+
+                    <button type="button" class="btn btn-info active" role="button" aria-pressed="true" onclick="location.href='@Url.Action("DietRecommendation","Dashboard")'" >Recommended Diet</button>
+
+                </div>
+            </div>
+        </div>

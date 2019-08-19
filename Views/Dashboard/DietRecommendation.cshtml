@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "DietRecommendation";
+    Layout = "~/Views/Dashboard/Index.cshtml";
+}
+
+<h2 align="center"> Diet Recommendation </h2>
+
+<div class="container">
+
+    <label> Problem Type: </label>
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+            Select Problem Type
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">Disease</a></li>
+            <li><a href="#">Allergy</a></li>
+        </ul>
+    </div> <br />
+
+    <label> Problem Category: </label>
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+            Select Problem Category Type
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">Hepatitis A</a></li>
+            <li><a href="#">Dust Allergy</a></li>
+        </ul>
+    </div> <br />
+
+    <button class="btn" type="button"> SUBMIT </button> <br /> <br />
+
+    <label> Diet Recommendation: </label> <br />
+    <textarea rows="5" cols="60" name="txtHealthProblem">
+        Enter problem here
+    </textarea>
+
+</div>
+
