@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewBag.Title = "HealthCentres";
+    Layout = "~/Views/Dashboard/Index.cshtml";
+}
+
+<!-- Page Heading -->
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h3 class="h3 mb-0 text-gray-800">Hatfield Medical Centre</h3>
+    </div>
+
+<ul class="nav nav-pills nav-fill" id="myTab" role="tablist">
+
+    <li class="nav-item">
+        <a class="nav-link active" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="true">Address & Contact details</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="hours-tab" data-toggle="tab" href="#hours" role="tab" aria-controls="hours" aria-selected="false">Operating Hours</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="spec-tab" data-toggle="tab" href="#spec" role="tab" aria-controls="spec" aria-selected="false">Specialist Employed</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="location-tab" data-toggle="tab" href="#location" role="tab" aria-controls="location" aria-selected="false">Find on Map</a>
+    </li>
+</ul>
+<div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+        <div class="card">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+                <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="hours" role="tabpanel" aria-labelledby="hours-tab">
+        <div class="card">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <div class="row">
+                        <div class="col text-left">Monday</div>
+                        <div class="col text-right">8am - 5pm</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="spec" role="tabpanel" aria-labelledby="spec-tab"></div>
+    <div class="tab-pane fade" id="location" role="tabpanel" aria-labelledby="location-tab"></div>
+</div>
